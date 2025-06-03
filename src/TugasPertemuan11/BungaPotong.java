@@ -3,8 +3,8 @@ package TugasPertemuan11;
 //Kelas BungaPotong mengimplementasikan interface Bunga
 public class BungaPotong implements Bunga {
 	 // Atribut nama bunga dan harga per tangkai
-	 public String nama = "Mawar";
-	 public double harga = 25000;
+	 public String nama;
+	 public double harga;
 
 	 // Menampilkan informasi tentang bunga potong
 	 public void tampilkanInfo() {
